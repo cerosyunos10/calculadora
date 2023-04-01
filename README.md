@@ -1,2 +1,2 @@
 # calculadora
-Proyecto de prueba de calculadora
+Proyecto de prueba de calculadora.
