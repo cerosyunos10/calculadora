@@ -1,0 +1,5 @@
+- Estructura del proyecto:
+- Dependencias utilizadas:
+- Funcionalidades implementadas y alcance del servicio:
+- Procedimientos de compilación y funcionamiento:
+- Ejemplos de llamadas de la API:
