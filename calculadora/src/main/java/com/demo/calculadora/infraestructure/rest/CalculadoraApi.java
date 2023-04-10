@@ -34,7 +34,7 @@ public class CalculadoraApi {
 	@Qualifier("tracer")
 	private final TracerImpl tracer;
 
-	@Operation(summary = "Operación Sumar", tags = {"CalculadoraApi"})
+	@Operation(summary = "Operación Sumar", description = "Realiza la suma de los dos números indicados en los parámetros de entrada.", tags = {"CalculadoraApi"})
 	@ApiResponses(value = { 
 	  @ApiResponse(responseCode = "200", description = "Se ha realizado la suma correctamente."),
 	  @ApiResponse(responseCode = "400", description = "Ha ocurrido un error al realizar la suma.")})
@@ -60,7 +60,7 @@ public class CalculadoraApi {
     }
 	
 	
-	@Operation(summary = "Operación Restar", tags = {"CalculadoraApi"})
+	@Operation(summary = "Operación Restar", description = "Realiza la resta de los dos números indicados en los parámetros de entrada.", tags = {"CalculadoraApi"})
 	@ApiResponses(value = { 
 	  @ApiResponse(responseCode = "200", description = "Se ha realizado la resta correctamente."),
 	  @ApiResponse(responseCode = "400", description = "Ha ocurrido un error al realizar la resta.")})
