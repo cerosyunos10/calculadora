@@ -65,6 +65,20 @@
 		    <artifactId>mockito-junit-jupiter</artifactId>
 		    <scope>test</scope>
 		</dependency>
+		
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-devtools</artifactId>
+    	</dependency>
+    	
+		<dependency>
+		    <groupId>io.corp.calculator</groupId>
+		    <artifactId>tracer</artifactId>
+		    <version>1.0.0</version>
+		    <scope>system</scope>
+		    <systemPath>SET_LOCAL_PATH</systemPath>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
