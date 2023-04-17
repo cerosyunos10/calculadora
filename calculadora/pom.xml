@@ -50,7 +50,11 @@
 	        <artifactId>spring-boot-devtools</artifactId>
     	</dependency>
     	
-
+    	<dependency>
+	        <groupId>io.corp.calculator</groupId>
+	        <artifactId>tracer</artifactId>
+	        <version>1.0.0</version>
+    	</dependency>
 		
 	</dependencies>
 
